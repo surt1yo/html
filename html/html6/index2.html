@@ -12,9 +12,19 @@
     </head>
     <body>
         <h1>Average Marks Calculator</h1>
-        <form>
-            <fieldset>
+        <fieldset>
+
                 <legend>Enter Your Marks</legend>
+                <!--<form action="/action_page.php">
+Creates an HTML form.
+action="/action_page.php" specifies where the form data will be sent when submitted.
+oninput="..."
+The code inside oninput runs every time the user changes an input field in the form.
+This allows the result to update instantly without pressing a button.-->
+                 <form action="/action_page.php"
+			         oninput = "x.value=
+                     (parseInt(marks1.value)+parseInt(marks2.value)+parseInt(marks3.value))/3">
+            <fieldset>
                 <label for="name">Name:</label>
                 <br>
                 <input type="text" id="name" name="name" required>
@@ -52,6 +62,7 @@
 
 
                 Average: <output name="x" for="marks1 marks2 marks3"></output>
+                 </form>
             </fieldset>
-        </form>
+       
     </body>
