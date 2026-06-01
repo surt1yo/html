@@ -1,0 +1,57 @@
+<!--
+    Write a program to create a webpage to enter 
+    marks of 3 different subjects for different 
+    students and display the average for these three subjects. 
+    To select a value of the subject, 
+    create a drop-down list using the select element of HTML.
+                                                            -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Average Marks Calculator</title>
+    </head>
+    <body>
+        <h1>Average Marks Calculator</h1>
+        <form>
+            <fieldset>
+                <legend>Enter Your Marks</legend>
+                <label for="name">Name:</label>
+                <br>
+                <input type="text" id="name" name="name" required>
+                <br><br>
+
+
+                <label for="entermarks">Enter Marks</label>
+                <br>
+                <select id="subjects1" name="subjects1" required>
+                    <option value="math">Math</option>
+                    <option value="science">Science</option>
+                    <option value="english">English</option>
+                </select>
+                <input type="number" id="marks1" name="marks1" required>
+                <br><br>
+
+
+                <select id="subjects2" name="subjects2" required>
+                    <option value="math">Math</option>
+                    <option value="science">Science</option>
+                    <option value="english">English</option>
+                </select>
+                <input type="number" id="marks2" name="marks2" required>
+                <br><br>
+
+
+
+                <select id="subjects3" name="subjects3" required>
+                    <option value="math">Math</option>
+                    <option value="science">Science</option>
+                    <option value="english">English</option>
+                </select>
+                <input type="number" id="marks3" name="marks3" required>
+                <br><br>
+
+
+                Average: <output name="x" for="marks1 marks2 marks3"></output>
+            </fieldset>
+        </form>
+    </body>

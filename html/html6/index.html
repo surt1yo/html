@@ -1,0 +1,47 @@
+<!--
+    Write a program to create a webpage to collect 
+    personal details like - email, name, contact number
+    (masked information), gender, and favourite 
+    city by using the form element of HTML.
+                                                        -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Personal Details Form</title>
+    </head>                                                   
+    <body>
+        <h1>Personal Details Form</h1>
+        <form>
+            <label for="name">Name:</label>
+            <br>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+
+
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+
+            <label for="contact">Contact Number:</label>
+            <br>
+            <input type="tel" id="contact" name="contact" required>
+            <br><br>
+
+
+            <label for="gender">Gender:</label>
+            <br>
+            <input type="radio" id="male" name="gender">Male
+            <input type="radio" id="female" name="gender">Female              
+            <br><br>
+
+            
+            <label for="city">Favourite City:</label>
+            <br>
+            <input type="checkbox" id="city" name="city" value="New York">New York
+            <input type="checkbox" id="city" name="city" value="Paris">Paris
+            <input type="checkbox" id="city" name="city" value="Tokyo">Tokyo
+            <input type="checkbox" id="city" name="city" value="Sydney">Sydney
+            <br><br>
+        </form>
