@@ -1,0 +1,79 @@
+<!--
+    In this assignment, students will build a 
+    simple cartoon character card webpage using HTML and CSS. 
+    They will use internal CSS to style the page, 
+    inline CSS to style one paragraph, CSS properties 
+    and values to change colours and text weight, 
+    and selectors to target different parts of the webpage.
+                                                        -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Squidward Character Card</title>
+
+    <style>
+        body {
+            background-color: #a7d8de;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .card {
+            width: 350px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: white;
+            border: 4px solid #5d7f85;
+            border-radius: 15px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            color: #3f5f66;
+        }
+
+        .nose {
+            width: 40px;
+            height: 120px;
+            background-color: #8cc5cc;
+            margin: 10px auto;
+            border-radius: 20px;
+        }
+
+        .eyes {
+            font-size: 50px;
+            color: #222;
+        }
+
+        .job {
+            color: #8b4513;
+            font-weight: bold;
+        }
+
+        .mood {
+            color: #666;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <h1>Squidward Tentacles</h1>
+
+        <div class="eyes">ಠ ಠ</div>
+        <div class="nose"></div>
+
+        <p class="job">Cashier at the Krusty Krab</p>
+
+        <p style="color: darkred; font-weight: bold;">
+            Current Mood: Existing against his will.
+        </p>
+
+        <p class="mood">
+            Loves clarinet, hates customers, survives purely through sarcasm.
+        </p>
+    </div>
+
+</body>     
+</html>

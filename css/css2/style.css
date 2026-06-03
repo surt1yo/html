@@ -1,0 +1,37 @@
+body{
+    background-color: darkblue;
+    background-image: linear-gradient(to bottom, darkblue, navy);
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: Arial, sans-serif;
+}
+.pageheader{
+    background-image: linear-gradient(to right, purple, coral);
+    text-align: center;
+    border-radius: 20px;
+}
+.fun-fact{
+    background-color: midnightblue;
+    border-radius: 20px;
+    color:white;
+
+}
+.fun-fact h2{
+    color: coral;
+    text-align: center;
+}
+.star{
+    width: 60px;
+    height: 60px;
+    background-color: yellow;
+    border-radius: 50%;
+    animation: twinkle 2s infinite;
+}
+@keyframes twinkle{
+    from{background-color: yellow;}
+    to{background-color: white;}
+}
+p{
+    color: coral;
+    text-align: center;
+}
