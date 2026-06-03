@@ -1,0 +1,76 @@
+/* Page Background */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+
+    background-color: #87ceeb;
+    background-image:
+        radial-gradient(circle, rgba(255, 255, 255, 0.3) 2px, transparent 2px);
+    background-size: 40px 40px;
+
+    text-align: center;
+}
+
+.app-header {
+    color: white;
+    margin-bottom: 30px;
+}
+.app-header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.app-header p {
+    font-size: 1.2rem;
+}
+
+.weather-card {
+    width: 350px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 20px;
+
+    background: linear-gradient(135deg, #ffb347, #ffcc33);
+
+    color: white;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.weekly-forecast {
+    width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+.weekly-forecast ul {
+    list-style: none;
+    padding: 0;
+}
+.weekly-forecast li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.weekly-forecast li:last-child {
+    border-bottom: none;
+}
+.weather-icon {
+    font-size: 80px;
+    margin-top: 30px;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
