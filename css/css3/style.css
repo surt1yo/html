@@ -1,0 +1,43 @@
+body{
+    background-color: darkblue;
+        background-image: linear-gradient(to bottom, darkblue, navy);
+        background-repeat: no-repeat;
+        background-position: top center;
+        font-family: Arial, sans-serif;
+}
+.hero-name h1{
+    color: yellow;
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 3px 3px orange;
+}
+.hero-name p{
+    color:lightblue;
+    text-transform:capitalize;
+    font-style: italic;
+}
+.sp{
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: coral;
+    text-shadow: 2px 2px black;
+}
+.powers{
+    color: lightgreen;
+    font-weight: bold;
+}
+.wk{
+    color: grey;
+    text-decoration: line-through;
+}
+.hero{
+    color: yellow;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+    transform: rotate(15deg) translateY(-20px);
+}
+.by{
+    color:coral;
+    font-style: italic;
+}
