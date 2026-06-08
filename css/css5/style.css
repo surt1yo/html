@@ -1,0 +1,19 @@
+body{
+    background-color: darkgreen;
+}
+.main{
+    border: 6px solid green;
+    margin: 50px;
+    padding: 20px;
+    background-color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    color: green;
+    border-radius: 50px;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+}
+.main fact{
+    color: rgb(236, 159, 15);
+    font-weight: bold;
+}
