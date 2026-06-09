@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(237, 237, 140);
+    padding: 40px 40px 40px 40px;
+    height: 1000px;
+}
+h3{
+    position: fixed;
+    top: 0;
+    left:0;
+    right:0;
+    color:white;
+    background-color: orange;
+    padding-left: 20px;
+}
+.breed{
+    border: 2px solid orange;
+    background-color: white;
+    border-radius: 50px;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+.relative{
+    background-color: yellow;
+    position: relative;
+    left: 30px;
+    border-radius: 50px;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    border: 2px solid orange;
+}
+h2{
+    text-shadow: 2px 2px 1px black;
+}
+.pet{
+    position: relative;
+    left: 30px;
+    border: 2px solid orange;
+    border-radius: 50px;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    background-color: white;
+}
+.absolute{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: 2px solid forestgreen;
+    background-color: forestgreen;
+    border-radius: 50px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.sticky{
+    position:sticky;
+    top: 60px;
+    background-color: darkorange;
+    color: white;
+    border: 2px solid darkprange;
+    border-radius: 50px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
